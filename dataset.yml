@@ -1,0 +1,24 @@
+path: ../data # dataset root dir
+train: images # train images (relative to 'path') 1742289 images
+val: images # val images (relative to 'path') 80000 images
+
+# Classes
+nc: 17
+names:
+  - 'dog'
+  - 'person'
+  - 'cat'
+  - 'tv'
+  - 'car'
+  - 'meatballs'
+  - 'marinara sauce'
+  - 'tomato soup'
+  - 'chicken noodle soup'
+  - 'french onion soup'
+  - 'chicken breast'
+  - 'ribs'
+  - 'pulled pork'
+  - 'hamburger'
+  - 'cavity'
+  - 'awake'
+  - 'drowsy'
